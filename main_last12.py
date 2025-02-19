@@ -4,7 +4,7 @@ import google.generativeai as genai
 import io
 
 # Configure Google Gemini API
-genai.configure(api_key="AIzaSyAf8zbxxg3aF8YgtnFBbTtEJA-Tq20w2JQ")
+genai.configure(api_key="")
 
 def extract_text_from_pdfs(pdf_files):
     """Extract text from multiple uploaded PDF files."""
